@@ -1,0 +1,25 @@
+git init
+git branch -M main
+git clone  https://github.com/kmenesesrivera/Checkpoint-KevinMeneses-21-02-2023.git
+touch main.js  index.html
+git add .
+git commit -m"commit 01 de KevinMeneses"
+git push origin main
+git checkout -b feature
+mkdir Hardware Software SeguridadInformatica
+touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+git add .
+git commit -m"commit 02 de KevinMeneses"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+vim resumenSoftware.txt
+vim resumenHardware.txt
+git add .
+git commit -m"commit 03 de KevinMeneses"
+touch comandos.txt
+vim comandos.txt
+git add .
+git commit -m"commit 04 de KevinMeneses"
+git push origin main
